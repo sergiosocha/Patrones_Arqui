@@ -19,4 +19,4 @@ Integrantes:
 + Sergio Eduardo Socha Mendoza
 
 
-## Análisis por clase:
+## Diagramas de clase:
