@@ -3,7 +3,7 @@
 Identificar patrones de diseño para los respectivos problemas
 
 
-##Instrucciones
+## Instrucciones
   + Cree un repositorio de github público y en el readme agregue los estudiantes del trabajo
   + Por cada uno de los problemas del PDF adjunto entregue:
       + Cual patrón escogió
