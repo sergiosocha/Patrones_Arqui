@@ -1,13 +1,21 @@
 public abstract class Order {
 
+    public void procesarOrden(){
+        tomaDePedido();
+        verificarDisponibilidad();
+        prepararPedido();
+        calcularPrecio();
+    }
 
 
-
-    abstract void tomaDePedido();
+    public void tomaDePedido(){
+    }
 
     abstract void verificarDisponibilidad();
 
-    abstract void prepararPedido();
+    public void prepararPedido(){
+
+    };
 
     abstract void calcularPrecio();
 
