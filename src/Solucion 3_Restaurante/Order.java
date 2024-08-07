@@ -11,11 +11,12 @@ public abstract class Order {
     public void tomaDePedido(){
     }
 
-    abstract void verificarDisponibilidad();
-
     public void prepararPedido(){
 
     };
+
+    abstract void verificarDisponibilidad();
+
 
     abstract void calcularPrecio();
 
