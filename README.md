@@ -20,3 +20,12 @@ Integrantes:
 
 
 ## Diagramas de clase:
+
+### SOLUCION 1:
+### SOLUCION 2:
+### SOLUCION 3:
+https://unisabanaedu-my.sharepoint.com/:u:/r/personal/sergiosocme_unisabana_edu_co/Documents/Solucion3_restaurante.drawio?csf=1&web=1&e=D24tOH
+### SOLUCION 4:
+### SOLUCION 5:
+
+
