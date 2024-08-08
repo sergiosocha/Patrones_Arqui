@@ -22,6 +22,10 @@ Integrantes:
 ## Diagramas de clase:
 
 ### SOLUCION 1:
+Prototype
+#
+Se seleccionó el patrón de diseño Prototype ya que el problema requería la creación de múltiples objetos, en este caso los héroes, teniendo la necesidad de crear un sistema de clonación de personajes. Por lo tanto, recurrimos al patrón Prototype, ya que nos permite copiar objetos existentes sin que el código dependa de sus clases.
+
 ### SOLUCION 2:
 ### SOLUCION 3:
 #### Patron de diseño seleccionado: 
