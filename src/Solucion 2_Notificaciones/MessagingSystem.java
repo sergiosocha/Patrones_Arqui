@@ -19,7 +19,7 @@ public class MessagingSystem {
 
     public void notifyDevice(String message){
         for (Observer observer : this.observers) {
-            observer.update();
+            observer.update(message);
         }
     }
 
