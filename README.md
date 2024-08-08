@@ -28,7 +28,10 @@ Integrantes:
 Prototype
 #
 Se seleccionó el patrón de diseño Prototype ya que el problema requería la creación de múltiples objetos, en este caso los héroes, teniendo la necesidad de crear un sistema de clonación de personajes. Por lo tanto, recurrimos al patrón Prototype, ya que nos permite copiar objetos existentes sin que el código dependa de sus clases.
-![Diagrama 1](.src/Solucion 1_Heroes/Solucion 1 diagrama.jpg)
+
+
+<img src=".src/Solucion 1_Heroes/Solucion 1 diagrama.jpg" alt="Diagrama del proceso" width="400"/>
+
 
 ### SOLUCION 2:
 Observer
