@@ -21,10 +21,14 @@ Integrantes:
 
 ## Diagramas de clase:
 
+##### Los diagramas se encuentran dentro de cada carpeta de solucion en formato JPEG
+
+
 ### SOLUCION 1:
 Prototype
 #
 Se seleccionó el patrón de diseño Prototype ya que el problema requería la creación de múltiples objetos, en este caso los héroes, teniendo la necesidad de crear un sistema de clonación de personajes. Por lo tanto, recurrimos al patrón Prototype, ya que nos permite copiar objetos existentes sin que el código dependa de sus clases.
+![Diagrama 1](.src/Solucion 1_Heroes/Solucion 1 diagrama.jpg)
 
 ### SOLUCION 2:
 Observer
