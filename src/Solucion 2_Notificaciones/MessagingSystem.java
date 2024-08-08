@@ -3,7 +3,7 @@ import java.util.List;
 
 public class MessagingSystem {
 
-    private List<Observer> observers;
+    private List<Observer> observers = new ArrayList<>();
 
     public MessagingSystem(){
         this.observers = new ArrayList<>();
@@ -23,7 +23,7 @@ public class MessagingSystem {
         }
     }
 
-    public void setEstado(String message) {
+    public void receiveMessage(String message) {
         System.out.println("Mensaje recibido: " + message);
         notifyDevice(message);
     }
