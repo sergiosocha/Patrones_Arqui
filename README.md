@@ -25,6 +25,9 @@ Integrantes:
 ### SOLUCION 2:
 ### SOLUCION 3:
 Patron de diseño seleccionado: Template Method
+#
+Este se ajusta segun las necesidades que se tenian para el desarrollo, ya que segun este podemos definir la estructura de la orden en una clase base y que las demas clases que heredan, solo implementen algunas funciones especificas
+#
 https://unisabanaedu-my.sharepoint.com/:u:/r/personal/sergiosocme_unisabana_edu_co/Documents/Solucion3_restaurante.drawio?csf=1&web=1&e=D24tOH
 ### SOLUCION 4:
 ### SOLUCION 5:
