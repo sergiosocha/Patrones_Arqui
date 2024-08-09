@@ -48,6 +48,11 @@ Este se ajusta segun las necesidades que se tenian para el desarrollo, ya que se
 ![Diagrama del proceso](./src/Diagramas/Solucion3_restaurante.jpg)
 
 ### SOLUCION 4:
+### Patron de diseño seleccionado
+Command
+#
+Para este problema es necesario de un patron que encapsule acciones para traerlas nuevamente y que permita la extensión del codigo de forma eficiente. Command permite este encapsulamiento de solicitudes y las registra, este solo necesita conocer el comando que debe ejecutar por lo que desacopla el invocador de los objetos, y estos comandos se pueden agragar sin modificar todo el codigo.
+#
 
 ### SOLUCION 5:
 #### Patron de diseño seleccionado: 
