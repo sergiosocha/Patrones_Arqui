@@ -56,5 +56,7 @@ Decorator
 Teniendo en cuenta que epara este problema se plantea un patron que permita agregar nuevas funcionalidades a objetos existentes, decorator nos permite agregas estas caracteristicas a las habitaciones de hotel de manera dinamica
 #
 
+![Diagrama del proceso](./src/Diagramas/Solucion5_Hotel.jpg)
+
 
 
