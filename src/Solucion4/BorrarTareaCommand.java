@@ -1,20 +1,16 @@
 import java.util.List;
 
-public class CrearTareaCommand implements Command {
+public class BorrarTareaCommand implements Command{
     private Tarea tarea;
     private List<Tarea> listaTareas;
 
-    public CrearTareaCommand(Tarea tarea, List<Tarea> listaTareas) {
+    public BorrarTareaCommand(Tarea tarea, List<Tarea> listaTareas) {
         this.tarea = tarea;
         this.listaTareas = listaTareas;
     }
-
     @Override
     public void ejecutar() {
-        listaTareas.add(tarea);
-        System.out.println("Tarea agregada");
+        listaTareas.remove(tarea);
+        System.out.println("La tarea fue eliminada");
     }
 }
-
-
-

@@ -1,26 +1,14 @@
-public class EditTareaCommand implements Command {
+public class EditTareaCommand implements Command{
 
-    private Tarea tareaVieja;
-    private Tarea tareaNueva;
-    private ControladorTarea controladorTarea;
+    private Tarea tarea;
+    private String tareaModificada;
 
-    public EditTareaCommand(Tarea tareaVieja, Tarea tareaNueva, ControladorTarea controladorTarea){
-
-        this.tareaVieja = tareaVieja;
-        this.tareaNueva = tareaNueva;
-        this.controladorTarea = controladorTarea;
-
+    public EditTareaCommand(Tarea tarea, String tareaModificada){
+        this.tarea = tarea;
+        this.tareaModificada = tareaModificada;
     }
-
     @Override
     public void ejecutar() {
-
-        controladorTarea.actualizarTarea(tareaNueva, tareaVieja);
-    }
-
-    @Override
-    public void deshacer() {
-        ControladorTarea.actualizarTarea(tareaNueva, tareaVieja);
-
+        System.out.println("Tarea modificada");
     }
 }
